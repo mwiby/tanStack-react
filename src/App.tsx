@@ -5,6 +5,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
+import { fetchAuthors, Author } from './api.ts';
 //import AuthorView from './view/AuthorView.jsx'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
