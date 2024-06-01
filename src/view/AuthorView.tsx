@@ -12,7 +12,7 @@ const AuthorView = () => {
           ) : (
             <>
               <div>
-                {data.map((author: { id: number; name: string }) => (
+                {data.map((author: { id: number, name: string }) => (
                   <p key={author.id}>
                   <span>{author.name}</span>
                   </p>
